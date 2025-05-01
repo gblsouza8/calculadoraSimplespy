@@ -13,3 +13,8 @@ def Calculos(num1, num2):
     else:
         print("Divisão:",num1/num2)
 
+def __init__():
+    num1, num2 = pegarNumeros()
+    Calculos(num1, num2)
+
+__init__()
